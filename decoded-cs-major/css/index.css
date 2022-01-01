@@ -1,0 +1,20 @@
+@import url("/decoded-cs-major/css/general.css");
+@import url("/decoded-cs-major/css/nav.css");
+
+div.body {
+  padding-bottom: 50px;
+}
+
+div.body .toc-header {
+  margin-bottom: 1em;
+}
+
+div.body li {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+div.body li.toc-chapter {
+  margin-left: 3em;
+}
+

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("/decoded-cs-major/css/generated.css");
+
+html, body {
+  /* Get rid of browser auto-generated margins */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  min-height: 400px;
+  min-width: 400px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto", "Arial";
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: -0.3em;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 500;
+  font-style: italic;
+  color: #8090A0;
+  margin-bottom: -0.3em;
+}
+
+h4 {
+  font-weight: 500;
+  color: #708090;
+  margin-bottom: -0.3em;
+}
+
+img {
+  margin: auto;
+  max-width: 75%;
+  max-height: 400px;
+  text-align: center;
+  display: block;
+}
+
+p {
+  margin-bottom: 2.2em;
+}
+
+p, ul, ol, a {
+  font-family: "Roboto", "Times New Roman";
+  line-height: 1.7em;
+  font-weight: 300;
+}
+
+p:not(ul+p):not(ol+p):not(blockquote+p):not(td>p):not(div.disclaimer>p):not(.bibliography) {
+  text-indent: 2em;
+}
+
+p.bibliography {
+  margin-left: 2em;
+  text-indent: -2em;
+}
+
+/* Extra spacing between checklist sections */
+ul.checklist-bullets + p {
+  margin-top: 4em;
+  text-indent: 2em;
+}
+
+blockquote {
+  text-align: justify;
+}
+
+/* Remove the extra spacing intended only for between paragraphs */
+p+blockquote, p+ul, p+ol {
+  margin-top: -1.2em;
+}
+
+/* Don't put extra spaces at the end of nested lists */
+li > ul, li > ol {
+  margin-bottom: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th p, td p {
+  margin: 1em;
+}
+
+td {
+  max-width: 350px;
+  word-wrap: break-word;
+}
+
+div.body, div.footer, div.license {
+  max-width: 600px;
+}
+
+div.body {
+  margin: auto;
+  padding: 10px;
+}
+
+footer {
+  font-size: 18px;
+  width: 100%;
+  background-color: #87ceeb;
+  padding-top: 2em;
+}
+
+footer div.footer, footer div.license, footer div.support-the-author {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer div.footer {
+  padding-bottom: 10em;
+}
+
+footer div.license, footer div.support-the-author {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #967bb6;
+}
+
+div.support-the-author {
+
+}
+
+div.disclaimer {
+  margin-bottom: 5em;
+  font-style: italic;
+  padding: 1em 1em 0.5em 1em;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+

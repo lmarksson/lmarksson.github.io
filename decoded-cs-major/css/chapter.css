@@ -1,0 +1,35 @@
+@import url("/decoded-cs-major/css/general.css");
+@import url("/decoded-cs-major/css/nav.css");
+
+div.footer a {
+  max-width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.footer a.next-chapter {
+	float: right;
+  text-align: right;
+}
+
+div.footer a.prev-chapter {
+	float: left;
+  text-align: left;
+}
+
+div.footer a.next-chapter:before {
+	content: "NEXT  \00bb \a";
+	white-space: pre;
+}
+
+div.footer a.prev-chapter:before {
+	content: "\00ab  PREVIOUS \a";
+	white-space: pre;
+  text-align: left;
+}
+
+div.license {
+  margin: auto;
+  width: 100%;
+}
+

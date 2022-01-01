@@ -1,0 +1,83 @@
+body div.body {
+  display: block;
+  padding-top: 100px;
+}
+
+nav div.banner {
+  background-color: #87ceeb;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  position: fixed;
+  z-index: 9998;
+}
+
+nav p.title {
+  position: absolute;
+  display: block;
+  top: 5px;
+  left: 80px;
+  color: white;
+  font-weight: 500;
+}
+
+@media screen and (max-width:600px) {
+  nav p.title {
+    left: 40px;
+  }
+}
+
+nav a.hamburger img {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}
+
+nav div.toc {
+  display: none;
+}
+
+nav.toc-shown div.toc {
+  display: block;
+  top: 64px;
+  left: 0;
+  z-index: 9999;
+  position: fixed;
+  background-color: #87ceeb;
+  height: 100%;
+  overflow-y: auto;
+  height: 93%;
+  padding-bottom: auto;
+}
+
+nav.toc-shown ul {
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+nav.toc-shown li {
+  list-style-type: none;
+  padding: 10px 10px 10px 20px;
+}
+
+nav.toc-shown li.toc-chapter {
+  padding-left: 40px;
+}
+
+nav.toc-shown a {
+  text-decoration: none;
+}
+
+nav.toc-shown li.curr-chapter {
+  background-color: #967bb6;
+}
+
+nav.toc-shown li:not(.curr-chapter) a:hover {
+  color: #967bb6;
+}
+

@@ -1,0 +1,15 @@
+/* auto-generated attribute by the HTML generator */
+.centered-text {
+  text-align: center;
+}
+
+ul.checklist-bullets>li {
+  padding: none;
+  list-style: none;
+}
+
+ul.checklist-bullets>li:before {
+  content: "\0025a1";
+  margin: 0 1em;
+}
+
