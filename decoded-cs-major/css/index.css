@@ -9,12 +9,49 @@ div.body .toc-header {
   margin-bottom: 1em;
 }
 
-div.body li {
-  margin-left: 1em;
-  margin-bottom: 1em;
+div.body li.toc-detailed-section, div.body li.toc-detailed-part {
+  font-size: 1.6em;
+  list-style-type: none;
 }
 
-div.body li.toc-chapter {
+div.body li.toc-detailed-section a, div.body li.toc-detailed-part a {
+  font-weight: 700;
+}
+
+div.body li.toc-detailed-part {
+  margin-top: 3em;
+}
+
+div.body li.toc-detailed-chapter {
+  font-size: 1.3em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+div.body li.toc-detailed-chapter a {
+  font-weight: 500;
+  margin-left: -0.5em;
+  font-style: italic;
+  text-decoration: none;
+}
+
+div.body li.toc-detailed-heading-h2 {
   margin-left: 3em;
+  list-style-type: circle;
+}
+
+li.toc-detailed-heading-h2 a, li.toc-detailed-heading-h3 a, li.toc-detailed-heading-h4 a {
+  margin-left: -0.5em;
+  text-decoration: none;
+}
+
+div.body li.toc-detailed-heading-h3 {
+  margin-left: 6em;
+  list-style-type: circle;
+}
+
+div.body li.toc-detailed-heading-h4 {
+  margin-left: 9em;
+  list-style-type: circle;
 }
 

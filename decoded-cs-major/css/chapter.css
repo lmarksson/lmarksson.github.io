@@ -33,3 +33,37 @@ div.license {
   width: 100%;
 }
 
+div.chapter-outline a {
+  text-decoration: none;
+}
+
+div.chapter-outline li.chapter-outline-h2 a {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+div.chapter-outline li.chapter-outline-h3 {
+  margin-left: 2em;
+}
+
+div.chapter-outline li.chapter-outline-h3 a {
+  font-size: 1.1em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+div.chapter-outline li.chapter-outline-h4 {
+  margin-left: 4em;
+}
+
+div.chapter-outline li.chapter-outline-h5 {
+  margin-left: 6em;
+}
+
+div.chapter-outline ul.chapter-outline-list {
+  margin-left: -1em;
+}
+
+div.chapter-outline {
+  margin-bottom: 10em;
+}
